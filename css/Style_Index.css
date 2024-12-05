@@ -13,7 +13,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-bottom: 300px;
 	width: 100%;
 }
 
@@ -26,6 +25,7 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+	margin-bottom: 300px;
 }
 
 .logo {
