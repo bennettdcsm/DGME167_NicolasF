@@ -9,6 +9,11 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+	background-image: url("../images/BACKGROUND IMAGE.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
 }
 
 /* Header styles */
@@ -83,16 +88,18 @@ width: 100%;
 .services-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 40px 0;
+    gap: 10px;
+    margin:auto;
     padding: 20px;
+	max-width: 600px;
+	
 }
 
 .services-grid1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 40px 0;
+    gap: 10px;
+    margin: 10px 0;
     padding: 20px;
 }
 
@@ -100,8 +107,8 @@ width: 100%;
 .services-grid2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin: 40px 0;
+    gap: 10px;
+    margin: 10px 0;
     padding: 20px;
 }
 
@@ -114,6 +121,17 @@ width: 100%;
 .service-icon {
 margin-left: auto;	
 	
+	
+	
+}
+
+.decorated-section::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 0.5px;
+	background-color: black;
 	
 	
 }
