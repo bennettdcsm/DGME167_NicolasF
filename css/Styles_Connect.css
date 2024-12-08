@@ -59,6 +59,12 @@ width: 100%;
     text-align: center;
 }
 
+.description-legend {
+	text-align: left;
+	max-width: 700px;
+	margin: auto;
+}
+
 .sound-icon {
     width: 140px;
     margin: 40px auto;
